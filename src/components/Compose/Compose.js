@@ -25,7 +25,6 @@ export default class Compose extends Component {
   }
 
   render() {
-    // Destructuring
     const { text } = this.state;
 
     return (
@@ -51,3 +50,5 @@ export default class Compose extends Component {
     )
   }
 }
+
+export default Compose;
